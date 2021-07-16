@@ -1,6 +1,6 @@
 
 #  NoteTaker
-NoteTaker Toolr 
+NoteTaker Tool 
   
   
   Please use the following link to see published version of this repository https://xtended99.github.io/NoteTaker/   
