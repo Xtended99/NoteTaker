@@ -39,6 +39,12 @@ NoteTaker Tool
   
 ![All Notes Deleted](./public/assets/images/deletednotes.png)   
   
+  
+### Heroku Deployed
+  
+![Note Taking Screen](./public/assets/images/heroku.png)   
+  
+  
 ### Given:
 
 Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save   
