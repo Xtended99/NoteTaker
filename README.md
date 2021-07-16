@@ -3,9 +3,9 @@
 NoteTaker Toolr 
   
   
-  Please use the following link to see published version of this repository https://xtended99.github.io/TeamInfoBuilder/  
+  Please use the following link to see published version of this repository t https://xtended99.github.io/NoteTaker/   
   
-  The home for this project lives at the following link at GitHub https://github.com/Xtended99/TeamInfoBuilder   
+  The home for this project lives at the following link at GitHub https://github.com/Xtended99/NoteTaker   
   
   Heroku Access https://   
   
