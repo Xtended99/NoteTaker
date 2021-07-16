@@ -1,71 +1,64 @@
 
-#  NoteTaker
-NoteTaker Toolr 
+#  TeamInfoBuilder
+Team Info Builder 
   
   
-  Please use the following link to see published version of this repository https://xtended99.github.io/NoteTaker/   
+  Please use the following link to see published version of this repository https://xtended99.github.io/TeamInfoBuilder/  
   
-  The home for this project lives at the following link at GitHub https://github.com/Xtended99/NoteTaker   
+  The home for this project lives at the following link at GitHub https://github.com/Xtended99/TeamInfoBuilder   
   
-  Heroku Access https://   
+  Please use the following link for the official and supported download at NPM  https://www.npmjs.com/package/teaminfo?__cf_chl_captcha_tk__=3646a1a82d1ea316bdad67f69a8e0eaa721b3365-1625594987-0-AVGJ_MmHPJj8zCIZyNmXSMORDWBLHCCge0M5hNoz154JHyGF2P-1gqnvepDQuTi_NekJyA4PKHYeXKu0Fo6dzL4835dyPrQqNxwk9_2G9IeW4WmA7K4Ib4LSjO-Wvfc7ZeL8wfujj5yrJFAfc6yPqFCyL9KeSszv4J2Uxctwk4pJbUVlwxprHX7TXp8CrLWGTHmQwpVcNG4Lg873uJHLs89A-F8rKN-OH03lPzRUm2u4xsnajb5QPtoelSWWYZ5fkFo7qadY1eH79TAZT3Dz5vUfOKw8t5cuu2IbeYV1z_pIfQm9l4TUtCrzYr2OkjAX8qjjVodR_G4Jb0PUfB6sB7zEwCHKM8yiVvB5pViRJL5zq-x18mI0RTYEkSB6AAzKp39rMoVKAl4AGXOlNASnEHFKLvA5zgt9SZyKx4P4lEX1w3ylkqGBTp1n2SMJZW3gQYQq9LRKG-iJQgQ6096nMDlZfzjz37hpu5TCIupzIEAaOMCTk2qkWDN-ec1FnNMj5CSH9g29gu3NdZ1ghrNyICPctPhZf2BvKP25ZS6y1TaYn1r2qleluEJ1aRv1BtxCjruFbMxchxCtmsQysKITI9_hD4T0eYbOLmPd8FT6ImHbK9Uyg1b8IJ4wYhpE0T5y0y9w-m5ndvbIJ-vd9jKi0zLaM5FqEvEpyE_YaY3c7hlh   
   
-  
-    Introductory screen of this tool.   
 
+  To install from npm all you have to do is the following   
+  
+    npm -y init   
+    npm install teaminfo   
+  
+  To install from github all you have to do is the following   
+  
+    git clone git@github.com:Xtended99/TeamInfoBuilder.git   
+    npm install inquirer util fs fs-extra inquirer-loop   
+  
+  To run the utility   
+  
+    Create a .js file with the following contents only   
+    require( 'teaminfo' );   
+
+    node The_Name_Of_Your_JS_File.js   
+  
+    From there just follow the prompts.   
+  
+  ## Please Read this carefully!!! A very important note:   
+  
+    After you have entered one or many employees, After the last employtee you will be asked   
+  
+    ? Would you like to run this again? (Y/n)  
+  
 ![After the last employee question](./assets/images/end_of_run.png)   
-
-### Instalation and Run Time Instructions:
-
--   1. Select or create a directory you would like to install the tool into.   
--   2. cd into the selected or newly created directory   
--   3. Run the following command git clone git@github.com:Xtended99/NoteTaker.git
--   4. After the download execute npm install.   
--   5. To start the application type the following npm run start
--   6. First screen is the introduction and it looks like this:
-
-   ![After the last employee question](./assets/images/end_of_run.png)   
-
--   7. Then select Get Started button. The next selection look s like this   
-   
-![After the last employee question](./assets/images/end_of_run.png)   
-   
--   8. The trashcan permits you to delete a note   
--   9. The + sign allows you to add a note    
--   8. The - sign permits you to delete a note
--   8. The the floppy disk image will appear once you fill in the Mote Tilte and the note text.
-      At that point you will be able to commit you notes to disk on tremote end,
   
+    Please select NO or it will ovewrite your previous answers.   
+    To see the compiled HTML please point your browser to the dist directory   
+    and pick the index.html   
   
-  This assignment is to create a tool that will allow a user to add, delete and save mesages to a remote server.  
+   In order to test you must run the tool once.   
+   The test commands are   
+         npm run test   
+  
+![TeamInfoBuilder Intro Screen](./assets/images/instructionspng.PNG)   
+   
+![ Run_One MP4](./assets/videos/teaminfobuilder.mp4)   
      
+  This assignment is to create a tool that can auto generate a index.html file based on a set of predetermined questions.  
+  There is a video link above and below for show and tell
+     
+![Run_Two MP4](./assets/videos/TeamInfo_Tool_Browser.mp4)   
+
+  This is test the video
+![Run_Two MP4](./assets/videos/team_info_builder_test.mp4)   
+  
 ### Given:
-
-Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save   
-notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.   
-
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then   
-deploy the entire application to Heroku.   
-
-
-AS A small business owner   
-I WANT to be able to write and save notes SO THAT I can organize my thoughts and keep track of tasks I need to complete   
-
-### Acceptance Criteria
-
--   GIVEN a note-taking application
--   WHEN I open the Note Taker
--   THEN I am presented with a landing page with a link to a notes page
--   WHEN I click on the link to the notes page
--   THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
--   WHEN I enter a new note title and the note’s text
--   THEN a Save icon appears in the navigation at the top of the page
--   WHEN I click on the Save icon
--   THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
--   WHEN I click on an existing note in the list in the left-hand column
--   THEN that note appears in the right-hand column
--   WHEN I click on the Write icon in the navigation at the top of the page
--   THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
-
+  
 Your task is to build a Node.js command-line application that takes in information about employees on a software   
 engineering team, then generates an HTML webpage that displays summaries for each person. Testing is key to making   
 code maintainable, so you’ll also write a unit test for every part of your code and ensure that it passes each test.  
