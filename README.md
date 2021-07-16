@@ -3,28 +3,39 @@
 NoteTaker Toolr 
   
   
-  Please use the following link to see published version of this repository t https://xtended99.github.io/NoteTaker/   
+  Please use the following link to see published version of this repository https://xtended99.github.io/NoteTaker/   
   
   The home for this project lives at the following link at GitHub https://github.com/Xtended99/NoteTaker   
   
   Heroku Access https://   
   
+  
+    Introductory screen of this tool.   
 
-  
 ![After the last employee question](./assets/images/end_of_run.png)   
-  
-    Please select NO or it will ovewrite your previous answers.   
-    To see the compiled HTML please point your browser to the dist directory   
-    and pick the index.html   
-  
-   In order to test you must run the tool once.   
-   The test commands are   
-         npm run test   
-  
-![TeamInfoBuilder Intro Screen](./assets/images/instructionspng.PNG)   
+
+### Instalation and Run Time Instructions:
+
+-   1. Select or create a directory you would like to install the tool into.   
+-   2. cd into the selected or newly created directory   
+-   3. Run the following command git clone git@github.com:Xtended99/NoteTaker.git
+-   4. After the download execute npm install.   
+-   5. To start the application type the following npm run start
+-   6. First screen is the introduction and it looks like this:
+
+   ![After the last employee question](./assets/images/end_of_run.png)   
+
+-   7. Then select Get Started button. The next selection look s like this   
    
-![ Run_One MP4](./assets/videos/teaminfobuilder.mp4)   
-     
+![After the last employee question](./assets/images/end_of_run.png)   
+   
+-   8. The trashcan permits you to delete a note   
+-   9. The + sign allows you to add a note    
+-   8. The - sign permits you to delete a note
+-   8. The the floppy disk image will appear once you fill in the Mote Tilte and the note text.
+      At that point you will be able to commit you notes to disk on tremote end,
+  
+  
   This assignment is to create a tool that will allow a user to add, delete and save mesages to a remote server.  
      
 ### Given:
