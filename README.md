@@ -14,7 +14,7 @@ NoteTaker Toolr
   
     Introductory screen of this tool.   
 
-![After the last employee question](./assets/images/end_of_run.png)   
+![Introduction Screen](./public/assets/images/introscreen.png)   
 
 ### Instalation and Run Time Instructions:
 
@@ -25,11 +25,11 @@ NoteTaker Toolr
 -   5. To start the application type the following npm run start
 -   6. First screen is the introduction and it looks like this:
 
-   ![After the last employee question](./assets/images/end_of_run.png)   
+![Introduction Screen](./public/assets/images/introscreen.png)   
 
 -   7. Then select Get Started button. The next selection look s like this   
    
-![After the last employee question](./assets/images/end_of_run.png)   
+![Note Taking Screen](./public/assets/images/notetakingscreen.png)   
    
 -   8. The trashcan permits you to delete a note   
 -   9. The + sign allows you to add a note    
