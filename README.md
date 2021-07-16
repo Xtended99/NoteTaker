@@ -25,14 +25,8 @@ NoteTaker Toolr
    
 ![ Run_One MP4](./assets/videos/teaminfobuilder.mp4)   
      
-  This assignment is to create a tool that can auto generate a index.html file based on a set of predetermined questions.  
-  There is a video link above and below for show and tell
+  This assignment is to create a tool that will allow a user to add, delete and save mesages to a remote server.  
      
-![Run_Two MP4](./assets/videos/TeamInfo_Tool_Browser.mp4)   
-
-  This is test the video
-![Run_Two MP4](./assets/videos/team_info_builder_test.mp4)   
-  
 ### Given:
 
 Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save   
