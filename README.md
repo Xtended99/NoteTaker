@@ -37,6 +37,8 @@ NoteTaker Toolr
 -   11. The the floppy disk image will appear once you fill in the Mote Tilte and the note text.
       At that point you will be able to commit you notes to disk on tremote end,
   
+![All Notes Deleted](./public/assets/images/deletednotes.png)   
+  
 ### Given:
 
 Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save   
